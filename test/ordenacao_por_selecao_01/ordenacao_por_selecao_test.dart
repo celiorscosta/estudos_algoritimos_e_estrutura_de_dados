@@ -1,6 +1,7 @@
-import 'package:estudos_algoritimos_e_estrutura_de_dados/ordenacao_por_selecao_01/ordenacao_por_selecao.dart';
-import 'package:test/test.dart';
 import 'package:collection/collection.dart';
+import 'package:test/test.dart';
+
+import 'package:estudos_algoritimos_e_estrutura_de_dados/ordenacao_por_selecao_01/ordenacao_por_selecao.dart';
 
 void main() {
   test('Ordenação por Seleção', () {
