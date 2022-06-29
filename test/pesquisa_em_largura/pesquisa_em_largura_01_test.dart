@@ -6,8 +6,8 @@ import 'package:test/test.dart';
 void main() {
   test('pesquisa em largura 01 ...', () async {
     var g = grafo();
-    var q = fila(g, 'voce');
+    var q = pesquisa(g, 'voce');
 
-    print(q);
+    expect(q, isTrue);
   });
 }
