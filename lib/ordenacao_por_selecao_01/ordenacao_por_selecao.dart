@@ -1,14 +1,12 @@
 List<int> ordenarPorSelecao(List<int> arr) {
-  print(arr);
-
   List<int> novoArr = <int>[];
+  var total = arr.length;
 
-  for (var i = 0; i < arr.length; i++) {
+  for (var i = 0; i < total; i++) {
     int menor = buscaMenor(arr);
     novoArr.add(arr[menor]);
-    arr[menor] = 100;
+    arr.removeAt(menor);
   }
-  print(novoArr);
   return novoArr;
 }
 
